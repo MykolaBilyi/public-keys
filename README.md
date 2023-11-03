@@ -1,4 +1,4 @@
-# Mykola's Public keys
+# Mykola's Public keys  ![Latest ref](https://img.shields.io/github/v/tag/MykolaBilyi/public-keys?label=ref)
 
 Inspired by [Better SSH Authorized Keys Management](https://gist.github.com/sivel/c68f601137ef9063efd7).
 

@@ -6,7 +6,7 @@ Inspired by [Better SSH Authorized Keys Management](https://gist.github.com/sive
 
 ```hcl
 module "user_keys" {
-  source = "github.com/MykolaBilyi/public-keys?ref=v0.1"
+  source = "github.com/MykolaBilyi/public-keys?ref=v0.2"
 
   connection = {
     user        = "root"

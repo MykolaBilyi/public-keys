@@ -1,8 +1,9 @@
 variable "connection" {
   type = object({
     user        = string
-    private_key = string
     host        = string
+    private_key = optional(string)
+    agent       = optional(bool)
   })
 }
 

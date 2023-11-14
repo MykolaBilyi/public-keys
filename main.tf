@@ -6,6 +6,7 @@ resource "ssh_resource" "keys" {
   host        = var.connection.host
   user        = var.connection.user
   private_key = var.connection.private_key
+  agent       = var.connection.agent
 
   when = "create"
 
